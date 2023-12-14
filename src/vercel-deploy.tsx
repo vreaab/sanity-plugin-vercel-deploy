@@ -224,10 +224,7 @@ const VercelDeploy = () => {
                 <Box>
                   <Button
                     type="button"
-                    fontSize={2}
                     tone="primary"
-                    padding={3}
-                    radius={3}
                     text="Add Project"
                     onClick={() => setIsFormOpen(true)}
                   />
@@ -327,11 +324,7 @@ const VercelDeploy = () => {
                         <Text size={3}>No deployments created yet.</Text>
                         <Box padding={4}>
                           <Button
-                            fontSize={3}
-                            paddingX={5}
-                            paddingY={4}
                             tone="primary"
-                            radius={4}
                             text="Add Project"
                             onClick={() => setIsFormOpen(true)}
                           />
@@ -367,13 +360,11 @@ const VercelDeploy = () => {
               <Box padding={3}>
                 <Grid columns={2} gap={3}>
                   <Button
-                    padding={4}
                     mode="ghost"
                     text="Cancel"
                     onClick={() => setIsFormOpen(false)}
                   />
                   <Button
-                    padding={4}
                     text="Create"
                     tone="primary"
                     loading={isSubmitting}
